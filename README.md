@@ -1,86 +1,64 @@
-# 🧠 OBrain Hub - Ecossistema de Dropshipping Inteligente
+# 💟 OBrain Hub - A Inteligencia para seu E-commerce
 
-> **A ponte definitiva entre produtos globais validados e lojistas de alta performance.**
+> **Conecte milhoes de produtos globais, gerencie vendas e maximize lucros em um so lugar.**
 
-O **OBrain Hub** não é apenas uma plataforma de e-commerce; é um **motor de inteligência e infraestrutura** para operações de dropshipping. Nós centralizamos a curadoria de produtos, a negociação com fornecedores (CJ Dropshipping) e o processamento de pagamentos, permitindo que lojistas foquem apenas em vender.
-
----
-
-## 💡 O Conceito
-
-No modelo tradicional de dropshipping, cada lojista precisa garimpar produtos, negociar com fornecedores e configurar gateways de pagamento complexos. O **OBrain Hub** resolve isso:
-
-1.  **Curadoria Centralizada:** Nossos algoritmos e especialistas selecionam os melhores produtos da CJ Dropshipping.
-2.  **Ranking Inteligente:** Classificamos produtos em **S, A, B, C** com base em tendências globais e margem de lucro.
-3.  **Infraestrutura Pronta:** O lojista recebe uma loja pronta (ou integra via API) com produtos já cadastrados e precificados.
-4.  **Gestão Financeira Unificada:** O Hub processa 100% das vendas. O custo do produto e as taxas são descontados automaticamente, e o lucro líquido é creditado na **Wallet** do lojista.
+O **OBrain Hub** e a plataforma completa para lojistas que querem crescer no dropshipping sem dores de cabeca. Nao e apenas um marketplace - e um ecossistema inteligente que gerencia produtos, precos, estoque e pagamentos para voce.
 
 ---
 
-## � Funcionalidades Principais
+## Por Que OBrain Hub?
 
-### 🛍️ Para o Lojista (User)
-*   **Catálogo Premium:** Acesso imediato a centenas de produtos vencedores.
-*   **Importação em 1 Clique:** Adicione produtos à sua vitrine instantaneamente.
-*   **Precificação Inteligente:** Sugestão automática de preço de venda baseada no seu plano (Free, Pro, Premium, Enterprise).
-*   **Carteira Digital (Wallet):** Acompanhe seu saldo em tempo real e solicite saques via PIX.
-*   **Dashboard de Vendas:** Métricas detalhadas de performance e lucro.
+### ✨ Para Lojistas
+- **Acesso a Milhoes de Produtos:** Catálogo premium de produtos vencedores globais
+- **Setup em Minutos:** Importe produtos com 1 clique, sua loja funciona no mesmo dia
+- **Precos Inteligentes:** Sugestoes automáticas baseadas em dados de mercado
+- **Gestao Financeira Simples:** Acompanhe lucro, solicit saques via PIX - tudo em tempo real
+- **Sem Complicacoes:** Nao se preocupe com estoque ou gateways de pagamento
 
-### 🏢 Para o Administrador (Hub)
-*   **Gestão de Produtos:** Importação em massa da CJ Dropshipping, definição de Rankings e Markups.
-*   **Controle de Usuários:** Gestão de assinaturas, bloqueio de contas e upgrades.
-*   **Painel Financeiro:** Aprovação de saques, visualização de fluxo de caixa e lucro da plataforma.
-*   **Configuração Global:** Ajuste de taxas e limites de planos em tempo real.
+### 🏂 Planos Flexiveis
 
----
+Escolha o plano ideal para seu negocio:
 
-## � Modelo de Negócio & Planos
-
-A plataforma monetiza de duas formas: **Assinaturas (SaaS)** e **Taxas sobre Vendas (Take Rate)**.
-
-| Plano | Acesso a Produtos | Limite de Vendas | Taxa do Hub (Markup) |
-| :--- | :--- | :--- | :--- |
-| **Free** | Rank C (Básicos) | R$ 499/mês | Alta |
-| **Pro** | Rank B + C | R$ 750/mês | Média |
-| **Premium** | Rank A + B + C | R$ 1.000/mês | Baixa |
-| **Enterprise** | **Todos (Rank S)** | **Ilimitado** | **Mínima** |
+| Plano | Limite de Vendas | Melhor Para |
+|---|---|---|
+| **Free** | R$ 499/mes | Comecando agora |
+| **Pro** | R$ 750/mes | Em crescimento |
+| **Premium** | R$ 1.000/mes | Escalando vendas |
+| **Enterprise** | Ilimitado | Operacoes de alta escala |
 
 ---
 
-## 🛠️ Arquitetura Técnica (Modern Stack)
+## 🚀 Comece Agora
 
-O projeto foi construído utilizando as tecnologias mais modernas e escaláveis do mercado, focando em performance (Edge Computing) e baixo custo de infraestrutura.
-
-### 🎨 Frontend (`/frontend`)
-*   **Framework:** React 18 + Vite (SPA de alta performance).
-*   **UI Kit:** Shadcn/UI + TailwindCSS (Design system profissional e responsivo).
-*   **Estado:** TanStack Query (Gerenciamento de cache e requisições assíncronas).
-*   **Hospedagem:** Cloudflare Pages (CDN Global).
-
-### ⚡ Backend (`/backend-worker`)
-*   **Serverless:** Rodando em **Cloudflare Workers** (Latência zero, escala infinita).
-*   **Framework:** Hono (Framework web ultraleve para Edge).
-*   **Banco de Dados:** **Cloudflare D1** (SQLite distribuído na Edge).
-*   **ORM:** Drizzle ORM (Type-safe, leve e rápido).
-*   **Storage:** Cloudflare R2 (Armazenamento de imagens compatível com S3).
-
-### 🤖 Automação (`/cj-matcher`)
-*   Scripts em Node.js para:
-    *   Buscar produtos na API da CJ Dropshipping.
-    *   Enriquecer dados (imagens, descrições, variantes).
-    *   Calcular custos de envio em tempo real.
-    *   Atualizar o banco de dados do Hub.
+1. Acesse **[hub.oconnector.tech](https://hub.oconnector.tech)**
+2. Crie sua conta em 2 minutos
+3. Escolha seu plano
+4. Importe seus primeiros produtos
+5. Comece a vender
 
 ---
 
+## 📈 Modelo de Negocios
 
+Nós monetizamos de forma transparente:
+- **Assinatura mensal** (seus dados)
+- **Pequeno markup** nos produtos (nao afeta seu lucro significativamente)
 
-## 🔒 Segurança
-*   **Autenticação JWT:** Sessões seguras e stateless.
-*   **Role-Based Access Control (RBAC):** Permissões estritas para Lojistas vs. Admins.
-*   **Validação de Dados:** Zod schemas em todas as entradas de API.
+A OBrain so lucra quando seus clientes lucram.
 
 ---
 
-## 📝 Licença
-Proprietário. Todos os direitos reservados a OBrain Hub.
+## 🔐 Seguranca e Confiabilidade
+
+✅ Criptografia de dados em transito e em repouso  
+✅ Autenticacao segura e controle de acesso  
+✅ Conformidade com padroes internacionais  
+✅ Backups automaticos  
+✅ Suporte 24/7  
+
+---
+
+## 📄 Licenca
+
+Proprio. Todos os direitos reservados a OBrain Hub.  
+Entre em contato: [dev@oconnector.tech](mailto:dev@oconnector.tech)
