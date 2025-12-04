@@ -73,44 +73,7 @@ O projeto foi construído utilizando as tecnologias mais modernas e escaláveis 
 
 ---
 
-## 🚀 Como Rodar o Projeto
 
-### Pré-requisitos
-*   Node.js (v18+)
-*   Conta Cloudflare (para deploy e recursos D1/R2)
-*   Wrangler CLI (`npm install -g wrangler`)
-
-### 1. Instalação
-```bash
-git clone https://github.com/xerifegomes/OBrain-Oconnect.git
-cd OBrain-Oconnect
-npm install
-```
-
-### 2. Configuração do Backend
-```bash
-cd backend-worker
-npm install
-# Crie o arquivo .dev.vars com suas chaves (ver .dev.vars.example)
-npm run dev
-```
-
-### 3. Configuração do Frontend
-```bash
-cd frontend
-npm install
-# Crie o arquivo .env com a URL da API
-npm run dev
-```
-
-### 4. Banco de Dados (D1)
-```bash
-# Criar banco localmente e aplicar migrations
-cd backend-worker
-wrangler d1 execute obrain-db --local --file=./migrations/0003_wallet.sql
-```
-
----
 
 ## 🔒 Segurança
 *   **Autenticação JWT:** Sessões seguras e stateless.
